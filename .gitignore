@@ -1,0 +1,47 @@
+# Python Virtual Environments
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Data / SQLite
+db/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# GeoJSON and large map outputs
+*.geojson
+*.json
+!data/synthetic/*.json
+!data/cache/board_evaluations.json
+!docs/*.geojson
+docs/makenes_scored_optimized.geojson
+docs/makenes_scored_conflicts.geojson
+
+# Large embedded HTML maps (demo HTML in docs/ is allowed)
+makenes_safety_map.html
+makenes_whatif_safety_map.html
+makenes_whatif_maplibre.html
+!docs/index.html
+
+# Logs
+*.log
+!docs/manifest.json
+
+# Prototyping and testing files
+prototypes/
+test/
+testing/
+tests/
+scratch/
