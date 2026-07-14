@@ -37,3 +37,4 @@ makenes_whatif_maplibre.html
 
 # Logs
 *.log
+!docs/manifest.json
